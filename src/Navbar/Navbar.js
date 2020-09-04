@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link, withRouter } from 'react-router-dom'
-import * as action from '../modules/actionCreators/actionCreators'
-import {connect} from 'react-redux'
 
 
 
@@ -17,7 +15,7 @@ import {connect} from 'react-redux'
     }
 
     const redirectToResume = () => {
-        props.history.push('/gamegram')
+        props.history.push('/resume')
     }
 
     const redirectToAboutMe = () => {

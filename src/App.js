@@ -2,11 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Route, Switch } from 'react-router-dom'
-import HomePage from 'AboutMeComponents/HomePage'
-import Resume from 'AboutMeComponents/Resume'
-import Blogs from 'AboutMeComponents/Blogs'
-import AboutMe from 'AboutMeComponents/AboutMe'
-import Navbar from 'Navbar/Navbar'
+import HomePage from './AboutMeComponents/HomePage'
+import Resume from './AboutMeComponents/Resume'
+import Blogs from './AboutMeComponents/Blogs'
+import AboutMe from './AboutMeComponents/AboutMe'
+import Navbar from './Navbar/Navbar'
 
 {/* <Route exact path='/quaranteams' render={(routerprops) => <QuaranTeams  {...routerprops}  />}/> 
 <Route exact path='/nameem' render={(routerprops) => <NameEm {...routerprops}  />}/> 
